@@ -25,6 +25,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Module.EngineMod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Module.ChassisModuleBase", "Framework\NerverLand.Module.ChassisModuleBase\NerverLand.Module.ChassisModuleBase.csproj", "{E9862A86-8E42-4786-9FC8-33D4626910D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Module.TireProvider", "Modules\NerverLand.Module.TireProvider\NerverLand.Module.TireProvider.csproj", "{76E84136-DD3C-481F-B9DB-13D1CC509464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Module.ChassisProvider", "Modules\NerverLand.Module.ChassisProvider\NerverLand.Module.ChassisProvider.csproj", "{F0A8A42D-8069-4773-8E23-739C4605B4BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Module.EngineProvider", "Modules\NerverLand.Module.EngineProvider\NerverLand.Module.EngineProvider.csproj", "{021ECA18-BD43-4C5B-BDB8-E3EAA193901E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +73,18 @@ Global
 		{E9862A86-8E42-4786-9FC8-33D4626910D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9862A86-8E42-4786-9FC8-33D4626910D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9862A86-8E42-4786-9FC8-33D4626910D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76E84136-DD3C-481F-B9DB-13D1CC509464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76E84136-DD3C-481F-B9DB-13D1CC509464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76E84136-DD3C-481F-B9DB-13D1CC509464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76E84136-DD3C-481F-B9DB-13D1CC509464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A8A42D-8069-4773-8E23-739C4605B4BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A8A42D-8069-4773-8E23-739C4605B4BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A8A42D-8069-4773-8E23-739C4605B4BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A8A42D-8069-4773-8E23-739C4605B4BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021ECA18-BD43-4C5B-BDB8-E3EAA193901E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021ECA18-BD43-4C5B-BDB8-E3EAA193901E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021ECA18-BD43-4C5B-BDB8-E3EAA193901E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021ECA18-BD43-4C5B-BDB8-E3EAA193901E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,5 +98,8 @@ Global
 		{E9862A86-8E42-4786-9FC8-33D4626910D6} = {A7BAC9AE-2A85-4FDE-BF26-EB0B00C63FBA}
 		{A7C86387-F8E4-4D59-8646-4D72A62386BE} = {3EAD223D-6446-4F4A-848C-5AF0577BEE8A}
 		{EBCFEA03-E999-4D05-A3D6-71ACDEE41780} = {3EAD223D-6446-4F4A-848C-5AF0577BEE8A}
+		{76E84136-DD3C-481F-B9DB-13D1CC509464} = {3EAD223D-6446-4F4A-848C-5AF0577BEE8A}
+		{F0A8A42D-8069-4773-8E23-739C4605B4BF} = {3EAD223D-6446-4F4A-848C-5AF0577BEE8A}
+		{021ECA18-BD43-4C5B-BDB8-E3EAA193901E} = {3EAD223D-6446-4F4A-848C-5AF0577BEE8A}
 	EndGlobalSection
 EndGlobal
