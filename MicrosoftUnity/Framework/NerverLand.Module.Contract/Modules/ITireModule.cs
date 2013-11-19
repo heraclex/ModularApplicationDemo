@@ -1,7 +1,7 @@
 ﻿
 namespace NerverLand.Module.Contract.Modules
 {
-    public interface IPartOneModule : IModule
+    public interface ITireModule : IModule
     {
     }
 }

@@ -40,11 +40,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Boot\IBootstrapper.cs" />
+    <Compile Include="Modules\IChassisModule.cs" />
     <Compile Include="Modules\IModule.cs" />
-    <Compile Include="Modules\IPartOneModule.cs" />
-    <Compile Include="Modules\IPartTwoModule.cs" />
-    <Compile Include="ModuleTypes\IEngine.cs" />
-    <Compile Include="ModuleTypes\ITire.cs" />
+    <Compile Include="Modules\ITireModule.cs" />
+    <Compile Include="Modules\IEngineModule.cs" />
+    <Compile Include="Provider\IChassisProvider.cs" />
+    <Compile Include="Provider\IEngineProvider.cs" />
+    <Compile Include="Provider\ITireProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

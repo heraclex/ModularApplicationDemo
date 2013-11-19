@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NerverLand.Module.Contract.Modules
 {
-    public interface IPartTwoModule : IModule
+    public interface IEngineModule : IModule
     {
     }
 }
