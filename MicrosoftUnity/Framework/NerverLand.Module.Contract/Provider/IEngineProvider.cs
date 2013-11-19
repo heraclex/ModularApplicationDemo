@@ -1,7 +1,7 @@
 ﻿
 namespace NerverLand.Module.Contract.Provider
 {
-    public interface IEngine
+    public interface IEngineProvider
     {
         string BuildEngine(int hp);
     }

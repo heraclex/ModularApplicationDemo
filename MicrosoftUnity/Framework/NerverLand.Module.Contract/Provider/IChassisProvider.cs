@@ -1,6 +1,7 @@
 ﻿namespace NerverLand.Module.Contract.Provider
 {
-    interface IChassisProvider
+    public interface IChassisProvider
     {
+        void Build();
     }
 }
