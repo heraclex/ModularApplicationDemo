@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.Composition;
+using NerverLand.Module.Contract.Modules;
 
 namespace NerverLand.Module.ChassisProvider
 {
-    public class ChassisModule
+    [Export(typeof(IModule))]
+    public class ChassisModule : ChassisModuleBase.ChassisModuleBase
     {
     }
 }

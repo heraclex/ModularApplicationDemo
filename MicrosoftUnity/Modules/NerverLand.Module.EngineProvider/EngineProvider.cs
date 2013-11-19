@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NerverLand.Module.Contract.Provider;
 
 namespace NerverLand.Module.EngineProvider
 {
-    class EngineProvider
+    public class EngineProvider : IEngineProvider
     {
+        public string BuildEngine(int hp)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

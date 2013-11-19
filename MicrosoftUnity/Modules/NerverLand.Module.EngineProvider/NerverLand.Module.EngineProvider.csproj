@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,6 +43,24 @@
     <Compile Include="EngineModule.cs" />
     <Compile Include="EngineProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Framework\NerverLand.Module.Common\NerverLand.Module.Common.csproj">
+      <Project>{f459d041-4073-4bc2-aa45-910ee961f985}</Project>
+      <Name>NerverLand.Module.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\NerverLand.Module.Contract\NerverLand.Module.Contract.csproj">
+      <Project>{b6913d77-a49b-487b-bc87-b3697c53de17}</Project>
+      <Name>NerverLand.Module.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\NerverLand.Module.Core\NerverLand.Module.Core.csproj">
+      <Project>{ed1441b8-be0b-4731-ae23-053733fecc21}</Project>
+      <Name>NerverLand.Module.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Framework\NerverLand.Module.EngineModuleBase\NerverLand.Module.EngineModuleBase.csproj">
+      <Project>{75df23f0-8b6e-4028-9be6-073065eedc9d}</Project>
+      <Name>NerverLand.Module.EngineModuleBase</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

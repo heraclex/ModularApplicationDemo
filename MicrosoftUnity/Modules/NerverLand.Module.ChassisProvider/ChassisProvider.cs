@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using NerverLand.Module.Contract.Provider;
 
 namespace NerverLand.Module.ChassisProvider
 {
-    class ChassisProvider
+    public class ChassisProvider : IChassisProvider
     {
+        public void Build()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
