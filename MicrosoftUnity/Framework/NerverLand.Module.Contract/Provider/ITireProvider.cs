@@ -1,7 +1,7 @@
 ﻿
-namespace NerverLand.Module.Contract.ModuleTypes
+namespace NerverLand.Module.Contract.Provider
 {
-    public interface ITire
+    public interface ITireProvider
     {
         string GetTire(int size);
     }
