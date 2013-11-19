@@ -56,10 +56,6 @@
       <Project>{ED1441B8-BE0B-4731-AE23-053733FECC21}</Project>
       <Name>NerverLand.Module.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Framework\NerverLand.Module.PartOneBase\NerverLand.Module.PartOneBase.csproj">
-      <Project>{159a750e-b535-468c-8179-e8059eb5486e}</Project>
-      <Name>NerverLand.Module.PartOneBase</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

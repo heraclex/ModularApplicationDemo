@@ -342,10 +342,6 @@
       <Project>{ed1441b8-be0b-4731-ae23-053733fecc21}</Project>
       <Name>NerverLand.Module.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Framework\NerverLand.Module.PartOneBase\NerverLand.Module.PartOneBase.csproj">
-      <Project>{159a750e-b535-468c-8179-e8059eb5486e}</Project>
-      <Name>NerverLand.Module.PartOneBase</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
