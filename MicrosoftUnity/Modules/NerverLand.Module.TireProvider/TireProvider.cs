@@ -1,13 +1,21 @@
 ﻿namespace NerverLand.Module.TireProvider
 {
-    using System;
     using NerverLand.Module.CarComponent.Contract;
+    using NerverLand.Module.CarModule;
 
-    public class TireProvider : ITireProvider
+    public class TireProvider : CarComponentProvider, ITireProvider
     {
-        public void BuildComponent(string name)
+        public TireProvider()
         {
-            throw new NotImplementedException();
+            this.ComponentName = "Tire Model 2013";
+        }
+
+        public override void BuildComponent(string name)
+        {}
+
+        public override string GetComponentName()
+        {
+            return this.ComponentName;
         }
     }
 }

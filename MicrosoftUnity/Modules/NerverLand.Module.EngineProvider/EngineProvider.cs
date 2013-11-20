@@ -2,11 +2,23 @@
 
 namespace NerverLand.Module.EngineProvider
 {
-    public class EngineProvider : IEngineProvider
+    using NerverLand.Module.CarModule;
+
+    public class EngineProvider : CarComponentProvider, IEngineProvider
     {
-        public void BuildComponent(string name)
+        public EngineProvider()
         {
-            throw new System.NotImplementedException();
+            this.ComponentName = "Engine Provider model 2013";
+        }
+
+        public override void BuildComponent(string name)
+        {
+            // do sth
+        }
+
+        public override string GetComponentName()
+        {
+            return this.ComponentName;
         }
     }
 }
