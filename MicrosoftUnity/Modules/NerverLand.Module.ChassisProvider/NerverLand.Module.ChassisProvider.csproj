@@ -45,21 +45,25 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Framework\NerverLand.Module.ChassisModuleBase\NerverLand.Module.ChassisModuleBase.csproj">
-      <Project>{e9862a86-8e42-4786-9fc8-33d4626910d6}</Project>
-      <Name>NerverLand.Module.ChassisModuleBase</Name>
+    <ProjectReference Include="..\..\Framework\NerverLand.Module.CarModule\NerverLand.Module.CarModule.csproj">
+      <Project>{b38f8c29-8729-439a-ac32-eb97296589c7}</Project>
+      <Name>NerverLand.Module.CarModule</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Framework\NerverLand.Module.Common\NerverLand.Module.Common.csproj">
       <Project>{f459d041-4073-4bc2-aa45-910ee961f985}</Project>
       <Name>NerverLand.Module.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Framework\NerverLand.Module.Contract\NerverLand.Module.Contract.csproj">
-      <Project>{b6913d77-a49b-487b-bc87-b3697c53de17}</Project>
+      <Project>{B6913D77-A49B-487B-BC87-B3697C53DE17}</Project>
       <Name>NerverLand.Module.Contract</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Framework\NerverLand.Module.Core\NerverLand.Module.Core.csproj">
       <Project>{ed1441b8-be0b-4731-ae23-053733fecc21}</Project>
       <Name>NerverLand.Module.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NerverLand.Module.CarComponent.Contract\NerverLand.Module.CarComponent.Contract.csproj">
+      <Project>{77a787df-5ab8-431b-8d68-77b7f13c4aba}</Project>
+      <Name>NerverLand.Module.CarComponent.Contract</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

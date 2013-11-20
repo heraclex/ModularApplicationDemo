@@ -1,11 +1,11 @@
-﻿using System;
-using NerverLand.Module.Contract.Provider;
-
-namespace NerverLand.Module.TireProvider
+﻿namespace NerverLand.Module.TireProvider
 {
+    using System;
+    using NerverLand.Module.CarComponent.Contract;
+
     public class TireProvider : ITireProvider
     {
-        public string GetTire(int size)
+        public void BuildComponent(string name)
         {
             throw new NotImplementedException();
         }

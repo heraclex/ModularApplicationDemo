@@ -267,12 +267,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="_Modules\NerverLand.Module.ChassisModuleBase.dll" />
-    <Content Include="_Modules\NerverLand.Module.ChassisProvider.dll" />
-    <Content Include="_Modules\NerverLand.Module.EngineModuleBase.dll" />
-    <Content Include="_Modules\NerverLand.Module.EngineProvider.dll" />
-    <Content Include="_Modules\NerverLand.Module.TireModuleBase.dll" />
-    <Content Include="_Modules\NerverLand.Module.TireProvider.dll" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -330,6 +324,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="_Modules\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

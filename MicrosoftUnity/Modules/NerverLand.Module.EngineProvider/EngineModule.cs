@@ -1,10 +1,12 @@
-﻿using System.ComponentModel.Composition;
-using NerverLand.Module.Contract.Modules;
-
-namespace NerverLand.Module.EngineProvider
+﻿namespace NerverLand.Module.EngineProvider
 {
+    using System.ComponentModel.Composition;
+
+    using NerverLand.Module.CarModule;
+    using NerverLand.Module.Contract.Modules;
+
     [Export(typeof(IModule))]
-    public class EngineModule : EngineModuleBase.EngineModuleBase
+    public class EngineModule : CarModuleBase
     {
     }
 }

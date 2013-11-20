@@ -1,10 +1,10 @@
-﻿using NerverLand.Module.Contract.Provider;
+﻿using NerverLand.Module.CarComponent.Contract;
 
 namespace NerverLand.Module.EngineProvider
 {
     public class EngineProvider : IEngineProvider
     {
-        public string BuildEngine(int hp)
+        public void BuildComponent(string name)
         {
             throw new System.NotImplementedException();
         }
