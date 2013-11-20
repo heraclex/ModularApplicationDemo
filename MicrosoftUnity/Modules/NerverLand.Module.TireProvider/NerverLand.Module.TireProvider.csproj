@@ -61,10 +61,6 @@
       <Project>{ed1441b8-be0b-4731-ae23-053733fecc21}</Project>
       <Name>NerverLand.Module.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Framework\NerverLand.Module.TireModuleBase\NerverLand.Module.TireModuleBase.csproj">
-      <Project>{93908f26-96ab-4b13-92de-a3f0fcf6db8e}</Project>
-      <Name>NerverLand.Module.TireModuleBase</Name>
-    </ProjectReference>
     <ProjectReference Include="..\NerverLand.Module.CarComponent.Contract\NerverLand.Module.CarComponent.Contract.csproj">
       <Project>{77a787df-5ab8-431b-8d68-77b7f13c4aba}</Project>
       <Name>NerverLand.Module.CarComponent.Contract</Name>

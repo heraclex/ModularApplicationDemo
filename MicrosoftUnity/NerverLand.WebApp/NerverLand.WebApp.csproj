@@ -330,6 +330,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Framework\NerverLand.Module.CarModule\NerverLand.Module.CarModule.csproj">
+      <Project>{b38f8c29-8729-439a-ac32-eb97296589c7}</Project>
+      <Name>NerverLand.Module.CarModule</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Framework\NerverLand.Module.Common\NerverLand.Module.Common.csproj">
       <Project>{f459d041-4073-4bc2-aa45-910ee961f985}</Project>
       <Name>NerverLand.Module.Common</Name>
@@ -341,6 +345,10 @@
     <ProjectReference Include="..\Framework\NerverLand.Module.Core\NerverLand.Module.Core.csproj">
       <Project>{ed1441b8-be0b-4731-ae23-053733fecc21}</Project>
       <Name>NerverLand.Module.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Modules\NerverLand.Module.CarComponent.Contract\NerverLand.Module.CarComponent.Contract.csproj">
+      <Project>{77a787df-5ab8-431b-8d68-77b7f13c4aba}</Project>
+      <Name>NerverLand.Module.CarComponent.Contract</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

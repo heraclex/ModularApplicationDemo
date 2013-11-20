@@ -6,8 +6,17 @@ using System.Web.Mvc;
 
 namespace NerverLand.WebApp.Controllers
 {
+    using NerverLand.Module.CarComponent.Contract;
+
     public class HomeController : Controller
     {
+        private ITireProvider tireProvider;
+
+        public HomeController(ITireProvider tireProvider)
+        {
+            this.tireProvider = tireProvider;
+        }
+
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
