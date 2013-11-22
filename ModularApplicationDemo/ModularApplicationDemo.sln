@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.WebApp", "NerverLand.WebApp\NerverLand.WebApp.csproj", "{C54014B6-41F7-4513-9DB7-F3C20195BF1F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{09136D65-4AE4-4C38-9A47-66105D5F035F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{64762F57-C944-4DFE-BD3F-65E7B3E3EAB6}"
@@ -25,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Module.EngineCom
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.CarComponent.Contract", "NerverLand.CarComponent.Contract\NerverLand.CarComponent.Contract.csproj", "{33788116-4C1F-4F33-BF26-512E0A61697A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication1", "MvcApplication1\MvcApplication1.csproj", "{55B7DC84-3E1F-48B4-BD74-C3D64BF7C6D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.WebApp", "NerverLand.WebApp\NerverLand.WebApp.csproj", "{898DB42D-B9DB-4714-A887-C56EB9014D9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +31,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C54014B6-41F7-4513-9DB7-F3C20195BF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C54014B6-41F7-4513-9DB7-F3C20195BF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C54014B6-41F7-4513-9DB7-F3C20195BF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C54014B6-41F7-4513-9DB7-F3C20195BF1F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F051CE95-46BF-4EFD-AFB6-39E50B51BED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F051CE95-46BF-4EFD-AFB6-39E50B51BED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F051CE95-46BF-4EFD-AFB6-39E50B51BED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,10 +63,10 @@ Global
 		{33788116-4C1F-4F33-BF26-512E0A61697A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33788116-4C1F-4F33-BF26-512E0A61697A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33788116-4C1F-4F33-BF26-512E0A61697A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{55B7DC84-3E1F-48B4-BD74-C3D64BF7C6D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{55B7DC84-3E1F-48B4-BD74-C3D64BF7C6D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{55B7DC84-3E1F-48B4-BD74-C3D64BF7C6D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{55B7DC84-3E1F-48B4-BD74-C3D64BF7C6D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898DB42D-B9DB-4714-A887-C56EB9014D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898DB42D-B9DB-4714-A887-C56EB9014D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898DB42D-B9DB-4714-A887-C56EB9014D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898DB42D-B9DB-4714-A887-C56EB9014D9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
