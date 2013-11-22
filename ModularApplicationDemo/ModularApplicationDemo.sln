@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.WebApp", "NerverLand.WebApp\NerverLand.WebApp.csproj", "{C54014B6-41F7-4513-9DB7-F3C20195BF1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{09136D65-4AE4-4C38-9A47-66105D5F035F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{64762F57-C944-4DFE-BD3F-65E7B3E3EAB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Framework.Core", "Framework\NerverLand.Framework.Core\NerverLand.Framework.Core.csproj", "{F051CE95-46BF-4EFD-AFB6-39E50B51BED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Framework.Common", "Framework\NerverLand.Framework.Common\NerverLand.Framework.Common.csproj", "{6A3A0795-2050-45A7-84D4-841F45DCD6EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Framework.Contract", "Framework\NerverLand.Framework.Contract\NerverLand.Framework.Contract.csproj", "{6969DCAE-3FCA-4FA4-84FA-E2F179DD8FE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Framework.CarModule", "Framework\NerverLand.Framework.CarModule\NerverLand.Framework.CarModule.csproj", "{F4BAB4FA-D251-4D41-8CD6-8EEE82E423CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Module.TireComponent", "Modules\NerverLand.Module.TireComponent\NerverLand.Module.TireComponent.csproj", "{F50AC30E-D12C-497D-967E-1B476BC9AEAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Module.ChassisComponent", "Modules\NerverLand.Module.ChassisComponent\NerverLand.Module.ChassisComponent.csproj", "{14DC54D5-367A-4FA1-B886-EA8E461C3D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.Module.EngineComponent", "Modules\NerverLand.Module.EngineComponent\NerverLand.Module.EngineComponent.csproj", "{E0ABC03A-D428-4A0C-B0DD-3F3E6D978704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NerverLand.CarComponent.Contract", "NerverLand.CarComponent.Contract\NerverLand.CarComponent.Contract.csproj", "{33788116-4C1F-4F33-BF26-512E0A61697A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C54014B6-41F7-4513-9DB7-F3C20195BF1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54014B6-41F7-4513-9DB7-F3C20195BF1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54014B6-41F7-4513-9DB7-F3C20195BF1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54014B6-41F7-4513-9DB7-F3C20195BF1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F051CE95-46BF-4EFD-AFB6-39E50B51BED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F051CE95-46BF-4EFD-AFB6-39E50B51BED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F051CE95-46BF-4EFD-AFB6-39E50B51BED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F051CE95-46BF-4EFD-AFB6-39E50B51BED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A3A0795-2050-45A7-84D4-841F45DCD6EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3A0795-2050-45A7-84D4-841F45DCD6EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3A0795-2050-45A7-84D4-841F45DCD6EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3A0795-2050-45A7-84D4-841F45DCD6EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6969DCAE-3FCA-4FA4-84FA-E2F179DD8FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6969DCAE-3FCA-4FA4-84FA-E2F179DD8FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6969DCAE-3FCA-4FA4-84FA-E2F179DD8FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6969DCAE-3FCA-4FA4-84FA-E2F179DD8FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BAB4FA-D251-4D41-8CD6-8EEE82E423CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BAB4FA-D251-4D41-8CD6-8EEE82E423CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BAB4FA-D251-4D41-8CD6-8EEE82E423CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BAB4FA-D251-4D41-8CD6-8EEE82E423CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50AC30E-D12C-497D-967E-1B476BC9AEAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50AC30E-D12C-497D-967E-1B476BC9AEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50AC30E-D12C-497D-967E-1B476BC9AEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50AC30E-D12C-497D-967E-1B476BC9AEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DC54D5-367A-4FA1-B886-EA8E461C3D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DC54D5-367A-4FA1-B886-EA8E461C3D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DC54D5-367A-4FA1-B886-EA8E461C3D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DC54D5-367A-4FA1-B886-EA8E461C3D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0ABC03A-D428-4A0C-B0DD-3F3E6D978704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0ABC03A-D428-4A0C-B0DD-3F3E6D978704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0ABC03A-D428-4A0C-B0DD-3F3E6D978704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0ABC03A-D428-4A0C-B0DD-3F3E6D978704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33788116-4C1F-4F33-BF26-512E0A61697A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33788116-4C1F-4F33-BF26-512E0A61697A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33788116-4C1F-4F33-BF26-512E0A61697A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33788116-4C1F-4F33-BF26-512E0A61697A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F051CE95-46BF-4EFD-AFB6-39E50B51BED2} = {09136D65-4AE4-4C38-9A47-66105D5F035F}
+		{6A3A0795-2050-45A7-84D4-841F45DCD6EA} = {09136D65-4AE4-4C38-9A47-66105D5F035F}
+		{6969DCAE-3FCA-4FA4-84FA-E2F179DD8FE7} = {09136D65-4AE4-4C38-9A47-66105D5F035F}
+		{F4BAB4FA-D251-4D41-8CD6-8EEE82E423CE} = {09136D65-4AE4-4C38-9A47-66105D5F035F}
+		{F50AC30E-D12C-497D-967E-1B476BC9AEAD} = {64762F57-C944-4DFE-BD3F-65E7B3E3EAB6}
+		{14DC54D5-367A-4FA1-B886-EA8E461C3D0E} = {64762F57-C944-4DFE-BD3F-65E7B3E3EAB6}
+		{E0ABC03A-D428-4A0C-B0DD-3F3E6D978704} = {64762F57-C944-4DFE-BD3F-65E7B3E3EAB6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
