@@ -28,7 +28,7 @@
         /// </summary>
         public override void Start()
         {
-            var dependencyResolver = this.ConfigureIoc();
+            this.ConfigureIoc();
             base.Start();
         }
 
@@ -86,12 +86,11 @@
         /// <returns>
         /// The <see cref="IDependencyResolver"/>.
         /// </returns>
-        protected override IDependencyResolver ConfigureIoc()
+        protected override void ConfigureIoc()
         {
             this.container = new UnityContainer();
             var dependencyResolver = new UnityServiceLocator(this.container);
             DependencyResolver.SetResolver(dependencyResolver);
-            return DependencyResolver.Current;
         }
     }
 }

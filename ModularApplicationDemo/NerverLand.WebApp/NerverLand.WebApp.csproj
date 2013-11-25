@@ -39,6 +39,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac">
+      <HintPath>..\packages\Autofac.3.1.5\lib\net40\Autofac.dll</HintPath>
+    </Reference>
+    <Reference Include="Autofac.Integration.Mvc">
+      <HintPath>..\packages\Autofac.Mvc4.3.1.0\lib\net40\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -195,6 +201,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Configuration\AutofacConfig\AutofacBootstrapper.cs" />
+    <Compile Include="App_Configuration\AutofacConfig\AutofacControllerFactory.cs" />
+    <Compile Include="App_Configuration\AutofacConfig\AutofacDependenceResolver.cs" />
     <Compile Include="App_Configuration\UnityConfig\UnityBootstrapper.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />

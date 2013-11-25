@@ -88,7 +88,7 @@ namespace NerverLand.Framework.Core.Boot
         ///   Configure Ioc container.
         /// </summary>
         /// <returns> The dependence resolver. </returns>
-        protected abstract IDependencyResolver ConfigureIoc();
+        protected abstract void ConfigureIoc();
 
         #endregion
     }

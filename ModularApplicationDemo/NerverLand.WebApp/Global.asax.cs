@@ -9,6 +9,7 @@ using System.Web.Routing;
 
 namespace NerverLand.WebApp
 {
+    using NerverLand.WebApp.App_Configuration.AutofacConfig;
     using NerverLand.WebApp.App_Configuration.UnityConfig;
 
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
@@ -18,8 +19,7 @@ namespace NerverLand.WebApp
     {
         protected void Application_Start()
         {
-            var boot = new UnityBootstrapper();
-            boot.Start();
+            this.AutofacStart();
 
             AreaRegistration.RegisterAllAreas();
 
@@ -28,6 +28,18 @@ namespace NerverLand.WebApp
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+        }
+
+        private void UnitStart()
+        {
+            var boot = new UnityBootstrapper();
+            boot.Start();
+        }
+
+        private void AutofacStart()
+        {
+            var boot = new AutofacBootstrapper();
+            boot.Start();
         }
     }
 }
