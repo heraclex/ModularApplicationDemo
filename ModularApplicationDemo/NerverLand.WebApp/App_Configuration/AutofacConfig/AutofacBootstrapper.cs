@@ -55,8 +55,8 @@ namespace NerverLand.WebApp.App_Configuration.AutofacConfig
         /// </summary>
         public override void Start()
         {
-            this.ConfigureIoc();
             base.Start();
+            this.ConfigureIoc();
         }
 
         protected override void Export(ExportEntry entry)
@@ -106,7 +106,6 @@ namespace NerverLand.WebApp.App_Configuration.AutofacConfig
             this.RegisterControllerFactory();
             this.container = this.builder.Build();
             DependencyResolver.SetResolver(new NerverLand.WebApp.App_Configuration.AutofacConfig.AutofacDependenceResolver(this.container, DependencyResolver.Current));
-            //DependencyResolver.SetResolver(new Autofac.Integration.Mvc.AutofacDependencyResolver((IContainer)this.container));
         }
 
         private void RegisterControllerFactory()
