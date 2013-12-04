@@ -10,7 +10,7 @@ namespace NerverLand.WebApp.App_Configuration.AutofacConfig
 
     using Autofac;
     using Autofac.Builder;
-    using Autofac.Integration.Mvc;
+    //using Autofac.Integration.Mvc;
 
     using NerverLand.Framework.Common.Export;
     using NerverLand.Framework.Contract.Modules;
